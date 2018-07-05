@@ -1,0 +1,8 @@
+image name : wordpress:4-php7.0
+env :
+  WORDPRESS_DB_PASSWORD
+  WORDPRESS_DB_HOST
+
+image name : mysql:5.7
+env :
+   MYSQL_ROOT_PASSWORD
