@@ -26,11 +26,16 @@ metadata:
   name: db-site-blog-service
 spec:
   ports:
-  - port: 31012
+  - port: 3306
     nodePort: 31012
     targetPort: mysql-port
     protocol: TCP
-
   selector:
     app: db-site
   type: NodePort
+  
+  
+  
+  
+  
+  
